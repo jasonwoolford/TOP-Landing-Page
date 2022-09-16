@@ -21,14 +21,16 @@ header {
 .welcome {
     display: flex;
     align-content:center;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: initial;
     background-color: #1F2937;
     padding: 75px;
 }
 
 .left {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -48,6 +50,8 @@ header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    justify-content: center;
+    display: flex;
 }
 p {
     font-size: 18px;
@@ -55,7 +59,13 @@ p {
 }
 
 button {
-    color: #3882F6;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 50px;
+    font-weight: bolder;
+    border-radius: 15px;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .callout {
@@ -73,6 +83,8 @@ button {
 
 .information {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .infobox {
