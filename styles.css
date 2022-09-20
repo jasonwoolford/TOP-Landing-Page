@@ -5,7 +5,7 @@
 body {
     display:flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100w;
     height: 100vw;
 }
 header {
@@ -16,6 +16,16 @@ header {
     color: #F9FAF8;
     padding-left:75px;
     padding-right:75px;
+}
+
+ul {
+    display: flex;
+    text-align: end;
+    text-decoration-style: none;
+}
+li {
+    text-decoration-line: none;
+    padding-left: 20px;
 }
 
 .welcome {
@@ -92,6 +102,9 @@ button {
     justify-content: space-between;
 }
 
+.box1 p, .box2 p, .box3 p, .box4 p {
+    color: black;
+}
 img {
     width: 20vw;
     height: 15vh;
