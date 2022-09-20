@@ -18,6 +18,13 @@ header {
     padding-right:75px;
 }
 
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-flow: end;
+}
+
 ul {
     display: flex;
     text-align: end;
@@ -26,6 +33,7 @@ ul {
 li {
     text-decoration-line: none;
     padding-left: 20px;
+    list-style-type: none;
 }
 
 .welcome {
@@ -44,6 +52,11 @@ li {
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-start;
+}
+
+.right {
+    justify-content: center;
+    align-items: center;
 }
 .hero {
     font-size: 48px;
@@ -81,20 +94,40 @@ button {
 .callout {
     background-color: #3882F6;
     display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 150px;
 }
 
+.calloutbutton {
+    display: flex;
+    padding: 25px;
+    margin: 25px;
+    border-color: white;
+    border-style: ridge;
+    align-items: center;
+    font-weight: bolder;
+}
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
     display: flex;
+    justify-content: center;
+    padding: 150px;
 }
 
+.quoteblock {
+    display: flex;
+    justify-content: center;
+}
 .information {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 150px;
 }
 
 .infobox {
