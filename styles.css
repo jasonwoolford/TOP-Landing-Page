@@ -5,8 +5,8 @@
 body {
     display:flex;
     flex-direction: column;
-    width: 100w;
-    height: 100vw;
+    width: 100vw;
+    height: 100vh;
 }
 header {
     display: flex;
@@ -16,6 +16,7 @@ header {
     color: #F9FAF8;
     padding-left:75px;
     padding-right:75px;
+    margin: 0;
 }
 
 footer {
@@ -23,6 +24,9 @@ footer {
     color: #F9FAF8;
     display: flex;
     flex-flow: end;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 0;
 }
 
 ul {
@@ -43,7 +47,8 @@ li {
     justify-content: space-between;
     flex-wrap: initial;
     background-color: #1F2937;
-    padding: 75px;
+    padding: 50px;
+    margin: 0;
 }
 
 .left {
@@ -126,8 +131,7 @@ button {
 .information {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 150px;
+    justify-content: space-between;
 }
 
 .infobox {
@@ -138,7 +142,17 @@ button {
 .box1 p, .box2 p, .box3 p, .box4 p {
     color: black;
 }
+.infobox.box1 img {
+    border-color: blue;
+    border-style: ridge;
+    border-radius: 15px;
+}
+
 img {
-    width: 20vw;
-    height: 15vh;
+    max-width: 25vw;
+    max-height: 25vh;
+}
+
+.infoimg {
+    border-radius: 50px;
 }
