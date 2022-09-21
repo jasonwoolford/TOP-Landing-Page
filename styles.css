@@ -156,3 +156,8 @@ img {
 .infoimg {
     border-radius: 50px;
 }
+
+.logo {
+    display: flex;
+    padding-top: 25px;
+}
